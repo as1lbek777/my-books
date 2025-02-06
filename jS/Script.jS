@@ -27,6 +27,7 @@ const books = [
         },
         highlighted: true
     },
+
 // 2-block
     {
         title: 'Structure and Interpretation of Computer Programs',
@@ -53,6 +54,7 @@ const books = [
         },
         highlighted: true
     },
+
 // 3-block
     {
         title: 'Computer Systems: A Programmer\'s Perspective',
@@ -79,6 +81,7 @@ const books = [
         },
         highlighted: true
     },
+
 // 4-block
     {
         title: "Operating System Concepts",
@@ -104,6 +107,7 @@ const books = [
             }
         },
     },
+
 // 5-block
     {
         title: "Engineering Mathemathics",
@@ -130,5 +134,35 @@ const books = [
         },
         highlighted: true,
     },
+
+// 6-block
+    {
+        title: "Introduction to Algorithms",
+        author: ["Thomas H. Gordmen", "Charles E. Leiserson", "Ronald L. Rivest", "Clifford Stein"],
+        imageSrc: "./assets/image/algorithms.jpg",
+        publisher: "MIT Press",
+        publicationDate: "2009-07-31",
+        edition: 3,
+        keywords: ["algorithms", "computer sciense", "data structures"],
+        pages: 1312,
+        formats: "hardcover",
+        ISBN: '9780262033848',
+        language: "Enlish",
+        programmingLanguage: "C, Java, Phyton",
+        onlineContent: true,
+        thirdParty: {
+            goodreads: {
+                rating: 4.25,
+                ratingsCount: 13530,
+                reviewsCount: 1030,
+                fiveStarRatingCount: 8761,
+                oneStarRatingCount: 463,
+            }
+        },
+        highlighted: false,
+    },
+    {
+        title: "",
+    }
 
 ]
