@@ -161,8 +161,32 @@ const books = [
         },
         highlighted: false,
     },
+
+// 7-block
     {
-        title: "",
-    }
+        title: "Introduction to Algorithms",
+        author: ['Thomas H. Cormen', 'Charles E. Leiserson', 'Ronald L. Rivest', 'Cliffort Stein'],
+        imageSrc: "./assets/image/algorithms",
+        publisher: "MIT Press",
+        publicationDate: "2009-07-31",
+        edition: 3,
+        keywords: ['algorithms', 'computer sciense', 'data structures'],
+        pages: 1312,
+        format: "hardcover",
+        ISBN: "9780262033848",
+        language: "English",
+        programmingLanguage: "C, Java, Phyton",
+        onlineContent: true,
+        thirdParty: {
+            goodreads: {
+                rating: 4.25,
+                ratingsCount: 13530,
+                reviewsCount: 1030,
+                fiveStarRatingCount: 8761,
+                onemptiedRatingCount: 463,
+            }
+        },
+        highlighted: false,
+    },
 
 ]
